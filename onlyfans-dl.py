@@ -16,6 +16,20 @@ import shutil
 import requests
 import time
 import datetime as dt
+<<<<<<< Updated upstream
+=======
+from urllib.parse import urlencode, urlparse
+import hashlib
+from requests import sessions
+
+
+# BEGIN USER CONFIG
+USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:88.0) Gecko/20100101 Firefox/88.0"  # Get from browser
+AUTH_ID = 16065765 # Get 'auth_id' from browser cookies
+AUTH_HASH = 'BMiTqHZwsF90Hhd7pv4CjpYJMZKfYr0d'  # Get 'auth_hash' from browser cookies
+# END USER CONFIG
+
+>>>>>>> Stashed changes
 
 # maximum number of posts to index
 # DONT CHANGE THAT
